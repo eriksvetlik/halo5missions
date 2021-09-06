@@ -4,6 +4,7 @@
   "description": "A Halo Game Data API that brings all campaign missions of Halo 5.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Erik Svetlik",
