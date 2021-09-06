@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Trispace&display=swap");
+
+* {
+  box-sizing: border-box;
+  background-color: #2d2d2d;
+}
+
+body {
+  font-family: Trispace, serif;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4rem;
+  color: #1572a4;
+}
+
+h3 {
+  text-align: center;
+  background-color: white;
+  color: #2d2d2d;
+}
+
+img {
+  display: block;
+  margin-bottom: 1rem auto;
+  max-width: 100%;
+}
+
+p {
+  padding: 0 1.5rem;
+  background-color: white;
+  color: #2d2d2d;
+}
+
+#loader {
+  padding-top: 100px;
+  display: block;
+  margin: auto;
+  max-width: 6rem;
+}
+
+#missionssection {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 1rem;
+  box-shadow: 2px 4px 25px #1572a4;
+  background-color: white;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 2px 8px 45px #1572a4;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.white-popup {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    flex-direction: column;
+    padding: 2rem;
+  }
+}
