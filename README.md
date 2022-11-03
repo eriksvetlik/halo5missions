@@ -7,7 +7,3 @@ HTML | CSS | Javascript | Node.js | JQuery
 # Screenshot
 
 ![Screenshot of webpage](./images/halo5missions.png)
-
-# Link
-
-(https://halo5missions.herokuapp.com/)
